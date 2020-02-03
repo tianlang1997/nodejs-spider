@@ -1,0 +1,1 @@
+集成了request和puppeteer适用多种场景，同时使用了User-Agent池和IP池，具有一定的反反爬虫，还添加了多进程，充分利用多核cpu性能

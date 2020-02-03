@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-spider",
+  "version": "1.0.0",
+  "description": "集成了request和puppeteer适用多种场景，同时使用了User-Agent池和IP池，具有一定的反反爬虫，还添加了多进程，充分利用多核cpu性能",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tianlang1997/nodejs-spider.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tianlang1997/nodejs-spider/issues"
+  },
+  "homepage": "https://github.com/tianlang1997/nodejs-spider#readme",
+  "dependencies": {
+    "async": "^3.1.1",
+    "cheerio": "^1.0.0-rc.3",
+    "ioredis": "^4.14.1",
+    "request": "^2.88.0"
+  }
+}
